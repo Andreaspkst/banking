@@ -2,14 +2,14 @@ import styles from './style';
 
 // Smart Import from Components - Check Components/index.js
 import { Billing, Business, CardDeal, Clients, CTA,
-  Footer, Hero, Navbar, Stats, Testimonials } from './components'
+  Footer, Hero, NavBar, Stats, Testimonials } from './components'
 
 
 const App = () => (
     <div className='bg-primary w-full overflow-hidden'>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          <Navbar />
+          <NavBar />
 
         </div>
       </div>
